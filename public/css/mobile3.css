@@ -1,0 +1,52 @@
+@media only screen and (min-width: 400px) and (max-width: 800px){
+
+    body {
+        background-color: #4495FA;        
+    }
+
+    .logo img {
+        max-width: 100%;
+    }
+
+    #header {
+        display: block;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .welcome-message {
+        margin-top: 20px;
+    }
+
+    .corporate-button { 
+        width: 50%;
+        border-radius: 20px;
+        background-color: #FAC356;
+        color: black;
+        font-weight: bold;
+        padding: 15px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 29px;
+        color: black;
+    }
+
+    .parrafo {
+        display: none;
+    }
+
+    .regresar-btn, .btn{
+        background-color: rgb(109, 104, 97);
+        font-weight: bold;
+        border-radius: 20px;
+        height: 40px;
+    }
+
+    .regresar-btn {
+        float: right;
+    }
+
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/mobile3.css">
+    <script defer src="js/registro.js"></script>
+    <title>Registrar Información Diaria</title>
+</head>
+
+<body>
+    <div id="header">
+
+        <img src="img/logo.png" alt="Logo" class="logo2">
+
+        <div class="welcome-message">
+            <h1>Registro de información </h1>
+        </div>
+    </div>
+
+    <main>
+        <form id="registro-form">
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" required>
+            
+            <label for="tipo-incidente">Tipo de Incidente:</label>
+            <select id="tipo-incidente" required>
+                <option value="">Seleccionar</option>
+                <option value="accidente">Accidente</option>
+                <option value="incidente">Incidente Menor</option>
+                <option value="inspeccion">Inspección</option>
+            </select>
+            
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" rows="4" required></textarea>
+            
+            <label for="ubicacion">Ubicación:</label>
+            <input type="text" id="ubicacion" required>
+            
+            <label for="responsable">Responsable:</label>
+            <input type="text" id="responsable" required>
+            
+            <label for="acciones">Acciones Tomadas:</label>
+            <textarea id="acciones" rows="4" required></textarea>
+            
+            <label for="resultados">Resultados:</label>
+            <textarea id="resultados" rows="4" required></textarea>
+            
+            <button type="submit" class="btn">Guardar</button>
+            <button type="reset" class="btn">Borrar</button>
+        </form>
+        <button class="regresar-btn" onclick="window.history.back()">Regresar</button>
+        <a href="ver_informacion.html" class="ver-informacion">Ver Información Registrada</a>
+  
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 SafeWork Pro. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

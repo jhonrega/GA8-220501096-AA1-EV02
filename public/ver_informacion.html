@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/mobile3.css">
+    <title>Ver Información Diaria</title>
+    <script defer src="js/ver_informacion.js"></script>
+</head>
+<body>
+    <div id="header">
+        <img src="img/logo.png" alt="Logo" class="logo2">
+        <div class="welcome-message">
+            <h1>Información Registrada</h1>
+        </div>
+    </div>
+
+    <main>
+        <table id="incidents-table">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Tipo de Incidente</th>
+                    <th>Descripción</th>
+                    <th>Ubicación</th>
+                    <th>Responsable</th>
+                    <th>Acciones Tomadas</th>
+                    <th>Resultados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Los datos se llenarán aquí dinámicamente -->
+            </tbody>
+        </table>
+        <button class="regresar-btn" onclick="window.history.back()">Regresar</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 SafeWork Pro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

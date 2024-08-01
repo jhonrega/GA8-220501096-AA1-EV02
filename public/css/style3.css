@@ -1,0 +1,189 @@
+@keyframes changeBackground {
+    0% { background-color: #ccc; } 
+    50% { background-color: #a7a7a7; } 
+    100% { background-color: #ccc; } 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    animation: changeBackground 10s infinite alternate; 
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    color: #D78125;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content:left;
+    background:#f0f0f0;
+}
+
+img {
+    max-width: 20%;;
+    display: block;
+    margin-left: 30px;
+}
+
+.parrafo {
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    max-width: 50%; 
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px;
+    box-sizing: border-box; 
+    line-height: 1.4;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message{
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.welcome-message h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+#content {
+    text-align: center;
+    padding: 50px 0;
+}
+/* Estilos para el contenido principal */
+
+main {
+    padding: 20px;
+    margin-bottom: 60px; 
+    overflow-y: auto; 
+}
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: 16px
+    
+    
+    ;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #185880;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="reset"] {
+    margin-left: 10px;
+    background-color: #999;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.regresar-btn {
+    top: -40px;
+    padding: 8px 16px;
+    background-color: #185880;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para la tabla de incidentes */
+#incidents-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+#incidents-table thead tr {
+    background-color: #185880;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+#incidents-table th,
+#incidents-table td {
+    padding: 12px 15px;
+}
+
+#incidents-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#incidents-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+#incidents-table tbody tr:last-of-type {
+    border-bottom: 2px solid #185880;
+}
+
+
+/* Estilo del enlace Ver Información */
+a.ver-informacion {
+    background-color: #185880;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 10px;
+}
+
+a.ver-informacion:hover {
+    background-color: #003366;
+    color: #e0e0e0;
+
+}
